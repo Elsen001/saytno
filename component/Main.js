@@ -5,8 +5,6 @@ import bg from './img/1.jpg'
 import msg from "./img/2.png"
 import poct from "./img/4.png"
 import save from "./img/5.webp"
-import { MdOutlineMessage } from "react-icons/md";
-import { IoFileTrayFullOutline } from "react-icons/io5";
 import { FaRegSave } from "react-icons/fa";
 
 
@@ -30,8 +28,10 @@ const Main = () => {
                         <div className="dot">...</div>
                     </div>
                     <div className='test'>
-                        <div className='msg'><MdOutlineMessage /><span>14</span></div>
-                        <div className='poct'><IoFileTrayFullOutline />
+                        <div className='msg'><Image src={msg} alt="" />
+                            <span>14</span></div>
+                        <div className='poct'>                            <Image src={poct} alt="" />
+
                         </div>
                         <div className='save'><FaRegSave /></div>
                     </div>
@@ -47,7 +47,7 @@ const Main = () => {
             <div className="card cd-2">
                 <div
                     className="card-header"
-                   
+
                 >
                     <div className='top'>
                         <div className="user">
@@ -59,8 +59,8 @@ const Main = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quidem😊👌! </p>
 
                     <div className='test'>
-                        <div className='msg'><MdOutlineMessage /><span>14</span></div>
-                        <div className='poct'><IoFileTrayFullOutline />
+                        <div className='msg'><Image src={msg} alt="" /><span>14</span></div>
+                        <div className='poct'> <Image src={poct} alt="" />
                         </div>
                         <div className='save'><FaRegSave /></div>
                     </div>
@@ -75,7 +75,7 @@ const Main = () => {
             <div className="card cd-2">
                 <div
                     className="card-header"
-                   
+
                 >
                     <div className='top'>
                         <div className="user">
@@ -87,8 +87,8 @@ const Main = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quidem😊👌! </p>
 
                     <div className='test'>
-                        <div className='msg'><MdOutlineMessage /><span>14</span></div>
-                        <div className='poct'><IoFileTrayFullOutline />
+                        <div className='msg'><Image src={msg} alt="" /><span>14</span></div>
+                        <div className='poct'> <Image src={poct} alt="" />
                         </div>
                         <div className='save'><FaRegSave /></div>
                     </div>
@@ -100,7 +100,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div  className="card">
+            <div className="card">
                 <div
                     className="card-header"
                     style={{
@@ -117,8 +117,8 @@ const Main = () => {
                         <div className="dot">...</div>
                     </div>
                     <div className='test'>
-                        <div className='msg'><MdOutlineMessage /><span>14</span></div>
-                        <div className='poct'><IoFileTrayFullOutline />
+                        <div className='msg'><Image src={msg} alt="" /><span>14</span></div>
+                        <div className='poct'> <Image src={poct} alt="" />
                         </div>
                         <div className='save'><FaRegSave /></div>
                     </div>

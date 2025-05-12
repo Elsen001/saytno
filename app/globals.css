@@ -22,11 +22,13 @@
 body {
   background: black;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
   height: 100%;
 }
+body {
+  font-family: var(--font-inter);
+}
 
-* {}
+
 
 header {
   display: flex;
@@ -92,6 +94,7 @@ main .card .card-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 main .card .card-header .user{
   display: flex;
@@ -181,9 +184,13 @@ nav .plus{
   background: linear-gradient(180deg, rgba(92, 20, 125, 1) 0%, rgba(130, 27, 179, 1) 43%, rgba(127, 64, 214, 1) 100%);
 
 }
+nav img{
+  width: 20px;
+}
+
 nav .r1{
-  margin-left: 30px;
+  margin-right: 30px;
 }
 nav .l1{
-  margin-right: 30px;
+  margin-left: 30px;
 }
