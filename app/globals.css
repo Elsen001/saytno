@@ -154,7 +154,7 @@ main .card .card-header .user img{
 }
 
 main .cd-2{
-  height: 255;
+  min-height: 255px;
 }
 main .cd-2 .card-header .test .msg,main  .cd-2 .card-header .test .poct{
   background-color: gray;
